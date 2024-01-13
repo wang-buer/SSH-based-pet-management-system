@@ -1,8 +1,14 @@
-# 基于SSH的宠物管理系统（宠物商店）
+# 基于SSH的宠物管理系统 宠物商店1
+
+## 获取方式
+
+下方扫一扫关注后，后台回复关键词：**电影**，查看导入教程视频、sql脚本和源码等
+
+ ![](https://www.codeshop.fun/Typora-Images/202205281253739.png)
 
 ## 1、项目介绍
 
-基于SSH的宠物管理系统（宠物商店）拥有两种角色，分别为管理员和用户，具体功能如下：
+宠物管理系统（宠物商店）拥有两种角色，分别为管理员和用户，具体功能如下：
 
 用户：首页浏览宠物信息、购买宠物、个人订单管理、留言、修改个人信息等
 
@@ -29,45 +35,45 @@
 
 ### 4.1 登录与注册
 
-![用户-登录](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220518235207.jpg)
+![用户-登录](https://www.codeshop.fun/Typora-Images/20220518235207.jpg)
 
-![用户注册](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220518235208.jpg)
+![用户注册](https://www.codeshop.fun/Typora-Images/20220518235208.jpg)
 
 用户可以通过此界面登录系统，以及通过注册界面进行注册。注册时，前端会自动进行信息校验。
 
 ### 4.2 用户模块
 
-![首页](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220518235250.jpg)
+![首页](https://www.codeshop.fun/Typora-Images/20220518235250.jpg)
 
-![宠物详情](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220518235302.jpg)
+![宠物详情](https://www.codeshop.fun/Typora-Images/20220518235302.jpg)
 
-![购物车](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220518235307.jpg)
+![购物车](https://www.codeshop.fun/Typora-Images/20220518235307.jpg)
 
-![用户-个人订单管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220518235317.jpg)
+![用户-个人订单管理](https://www.codeshop.fun/Typora-Images/20220518235317.jpg)
 
-![用户留言](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220518235322.jpg)
+![用户留言](https://www.codeshop.fun/Typora-Images/20220518235322.jpg)
 
-![用户修改个人信息](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220518235326.jpg)
+![用户修改个人信息](https://www.codeshop.fun/Typora-Images/20220518235326.jpg)
 
-首页功能：用户可以根据类型筛选宠物，查看宠物详情，将宠物加入购物车，直接购买宠物等
+首页功能：用户可以根据类型筛选宠物，查看重新详情，将宠物加入购物车，直接购买宠物等
 
-个人订单管理：用户可以根据订单查看自己的订单信息
+个人订单管理：用户可以根据订单看查看自己的订单信息
 
 其它功能：用户可以系统留言、修改个人信息
 
 ### 4.3 管理员模块
 
-![管理员-宠物管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220518235745.jpg)
+![管理员-宠物管理](https://www.codeshop.fun/Typora-Images/20220518235745.jpg)
 
-![管理员-宠物类型管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220518235748.jpg)
+![管理员-宠物类型管理](https://www.codeshop.fun/Typora-Images/20220518235748.jpg)
 
-![管理员-订单管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220518235749.jpg)
+![管理员-订单管理](https://www.codeshop.fun/Typora-Images/20220518235749.jpg)
 
-![管理员-公告管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220518235751.jpg)
+![管理员-公告管理](https://www.codeshop.fun/Typora-Images/20220518235751.jpg)
 
-![管理员-留言管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220518235754.jpg)
+![管理员-留言管理](https://www.codeshop.fun/Typora-Images/20220518235754.jpg)
 
-![管理员-用户管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220518235756.jpg)
+![管理员-用户管理](https://www.codeshop.fun/Typora-Images/20220518235756.jpg)
 
 宠物管理：管理员可以通过宠物名称模糊查询宠物，还可以增加、删除、修改宠物信息，以及设置为热卖、特价等
 
@@ -80,12 +86,4 @@
 留言管理：管理员可以通过名称筛选留言，并能增加、删除、修改留言信息，还可以回复用户的信息
 
 用户管理：管理员可以通过用户名筛选用户，并能增加、删除、修改用户信息
-
-## 5、获取方式
-
-扫描下方，回复 “ **宠物1**” ，即可获取完整版的项目代码。
-
-![image-20220509000010316](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205281253739.png)
-
-
 
